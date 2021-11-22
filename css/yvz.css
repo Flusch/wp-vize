@@ -1,0 +1,160 @@
+html,
+body,
+#vaka {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+}
+
+#crs1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-text-stroke: 2px black;
+}
+
+/* CARD */
+
+#kartlar {
+    padding: 100px;
+}
+
+.kart-baslik {
+    margin-bottom: 100px;
+}
+
+.kart-baslik h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.kartlar .row {
+    padding: 0 100px;
+}
+
+/* VIDEO */
+
+#videolar {
+    padding: 50px;
+    background-color: #f0f0f4;
+}
+
+.videolar {
+    padding: 0 50px;
+}
+
+.videolar h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* REHBER */
+
+#rehberler {
+    padding: 100px;
+}
+
+.rehberler .row {
+    padding-bottom: 25px;
+}
+
+/* TIMELINE */
+
+#timeline {
+    padding: 100px 0;
+    background-color: #f0f0f4;
+}
+
+.timeline .row {
+    margin-bottom: 100px;
+}
+
+.timeline h4, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.tm-baslik {
+    padding-bottom: 100px;
+}
+
+.tm-icerik {
+    position: relative;
+}
+
+.tm-icerik:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    background-color: #e3dbf8;
+    left: 50%;
+    margin: -2px;
+}
+
+.tm-icerik img {
+    border-radius: 200px;
+    border: 8px solid #e3dbf8;
+}
+
+.tm-icerik .text-muted {
+    font-style: italic;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-kutu {
+    background-color: black;
+    padding-top: 10px;
+    margin-left: 20%;
+}
+
+/* KART HOVER EFEKTİ */
+
+.card {
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  transition: transform .3s, filter 0.6s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.card:hover img {
+  filter: grayscale(0);
+}
+
+/* HABER1 */
+
+#haber1-icerik {
+    background-color: #f0f0f4;
+}
+
+.haber1-icerik {
+    background-color: white;
+    border: 50px solid #f0f0f4;
+    padding: 50px;
+}
+
+/* HAKKINDA */
+
+#hakkinda {
+    background-color: #f0f0f4;
+}
+
+.hakkinda {
+    background-color: white;
+    border: 50px solid #f0f0f4;
+    padding: 50px;
+}
+
+
+
+
